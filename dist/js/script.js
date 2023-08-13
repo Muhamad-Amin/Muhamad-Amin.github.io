@@ -1,4 +1,4 @@
-// alert('Website ini belum disempurnakan jadi maaf jika ada bug dan mohon jangan menggunakan darkmode')
+alert('Website ini belum disempurnakan jadi maaf jika ada bug dan mohon jangan menggunakan darkmode')
 
 // Navbar fixed
 window.onscroll = function () {
