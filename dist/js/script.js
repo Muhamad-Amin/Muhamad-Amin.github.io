@@ -1,4 +1,4 @@
-alert('Website ini belum disempurnakan jadi maaf jika ada bug dan mohon jangan menggunakan darkmode')
+// alert('Website ini belum disempurnakan jadi maaf jika ada bug dan mohon jangan menggunakan darkmode')
 
 // Navbar fixed
 window.onscroll = function () {
@@ -40,24 +40,24 @@ window.addEventListener('click', function (e) {
 
 
 // Darkmode Toggle
-const darkToggle = document.querySelector('#dark-toggle');
-const html = document.querySelector('html');
+// const darkToggle = document.querySelector('#dark-toggle');
+// const html = document.querySelector('html');
 
-darkToggle.addEventListener('click', function (e) {
-    if (darkToggle.checked) {
-        // html.classList.add('dark');
-        alert('Mohon Maaf Darkmode belum bisa digunakan')
-        // localStorage.theme = 'dark';
-    } else {
-        html.classList.remove('dark');
-        localStorage.theme = 'light';
-    }
-});
+// darkToggle.addEventListener('click', function (e) {
+//     if (darkToggle.checked) {
+//         // html.classList.add('dark');
+//         alert('Mohon Maaf Darkmode belum bisa digunakan')
+//         // localStorage.theme = 'dark';
+//     } else {
+//         html.classList.remove('dark');
+//         localStorage.theme = 'light';
+//     }
+// });
 
 
-// Pindahkan Posisi Toogle sesuai mode
-if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    darkToggle.checked = true;
-} else {
-    darkToggle.checked = false;
-}
+// // Pindahkan Posisi Toogle sesuai mode
+// if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+//     darkToggle.checked = true;
+// } else {
+//     darkToggle.checked = false;
+// }
